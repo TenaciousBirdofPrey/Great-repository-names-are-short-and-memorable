@@ -1,10 +1,3 @@
-/*
-Below is a basic template for using the Sound Library.
-It also has examples that can are commented out.
-*/
-
-
-
 var mic;
 var fft;
 
@@ -63,7 +56,6 @@ function draw() {
   */
 
   //using fft anaylze
-  /*
   var spectrum = fft.analyze();
    noStroke();
    fill(0,255,0); // spectrum is green
@@ -72,7 +64,6 @@ function draw() {
      var h1 = -height + map(spectrum[j], 0, 255, height, 0);
      rect(x1, height, width / spectrum.length, h1 );
    }
-   */
 }
 
 //chrome won't allow auto play, add workaround
